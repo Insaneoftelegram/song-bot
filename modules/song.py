@@ -46,7 +46,7 @@ def a(client, message):
             count += 1
         # results = YoutubeSearch(query, max_results=1).to_dict()
         try:
-            link = f"https://youtube.com{results[0]['url_suffix']}"
+            link = f"https://www.youtube.com/watch?v={video_id}"
             # print(results)
             title = results[0]["title"]
             thumbnail = results[0]["thumbnails"][0]
